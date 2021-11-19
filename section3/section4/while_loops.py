@@ -15,7 +15,19 @@
 #     print(k)
 #     k -= 1
 
-l = 1
-while l <= 2 ** 2:
-    print(l)
-    l *= 2
+# l = 1
+# while l <= 2 ** 2:
+#     print(l)
+#     l *= 2
+
+value = 0
+increment = 0.5
+while value < 0.999:
+    value += increment
+    increment *= 0.5
+    print(value)
+
+val = 1
+while val < 10:
+    print(f"{val:.2e}")
+    val += .10
